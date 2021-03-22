@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery-container {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.image-gallery-special img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.image-gallary-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image-gallary-items img {
+    width: 19%;
+    height: auto;
+}
